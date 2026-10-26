@@ -1,0 +1,23 @@
+nnunet_2d_fold0_checkpoint_final  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.058   std    1.750   median     96.310
+precision        mean     95.590   std    3.567   median     95.431
+recall           mean     96.649   std    1.958   median     96.988
+iou              mean     92.469   std    3.194   median     92.882
+vol_diff_pct     mean      1.289   std    5.192   median      0.504
+hd95             mean     30.945   std   23.834   median     24.000
+assd             mean      5.694   std    3.130   median      4.897
+hd100            mean     43.942   std   29.517   median     35.014
+correctness      mean     11.088   std    9.964   median      8.577
+completeness     mean     11.076   std    8.578   median      8.986
+quality          mean      5.994   std    5.494   median      4.687
+n_pred_cc        mean      1.548   std    0.978   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    580.290   std  276.464   median    550.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1106.290   std  238.257   median   1055.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.153   std   14.279   median     62.360
+d255_dice        mean     64.090   std   12.588   median     66.573
+d127_recall      mean     96.286   std    2.706   median     96.824
+d255_recall      mean     96.694   std    3.694   median     97.500

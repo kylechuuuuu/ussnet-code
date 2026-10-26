@@ -1,0 +1,23 @@
+fp_armE_zone3_checkpoint_best  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.050   std    1.437   median     96.037
+precision        mean     95.779   std    3.063   median     96.563
+recall           mean     96.434   std    2.273   median     96.527
+iou              mean     92.436   std    2.650   median     92.376
+vol_diff_pct     mean      0.827   std    4.916   median      1.133
+hd95             mean     32.289   std   22.858   median     25.495
+assd             mean      5.681   std    2.564   median      5.548
+hd100            mean     45.740   std   29.486   median     35.057
+correctness      mean      9.360   std    7.968   median      6.706
+completeness     mean      9.693   std    7.816   median      7.170
+quality          mean      5.066   std    4.411   median      3.989
+n_pred_cc        mean      1.452   std    0.836   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    560.097   std  260.264   median    502.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1093.935   std  227.219   median   1047.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.146   std   14.034   median     62.051
+d255_dice        mean     64.139   std   12.836   median     66.908
+d127_recall      mean     96.075   std    2.961   median     96.847
+d255_recall      mean     96.442   std    3.760   median     97.849

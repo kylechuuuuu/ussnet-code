@@ -1,0 +1,23 @@
+sqA_main_checkpoint_best  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.020   std    1.398   median     96.251
+precision        mean     95.927   std    2.972   median     95.959
+recall           mean     96.226   std    2.378   median     96.860
+iou              mean     92.379   std    2.584   median     92.774
+vol_diff_pct     mean      0.449   std    4.924   median      0.707
+hd95             mean     29.802   std   21.741   median     25.929
+assd             mean      5.750   std    2.730   median      4.956
+hd100            mean     42.430   std   30.575   median     35.903
+correctness      mean      8.982   std    7.257   median      8.371
+completeness     mean      8.130   std    6.226   median      7.495
+quality          mean      4.491   std    3.666   median      4.104
+n_pred_cc        mean      1.581   std    2.837   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    510.161   std  232.220   median    429.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1082.548   std  231.426   median   1038.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.116   std   14.230   median     61.872
+d255_dice        mean     64.219   std   12.561   median     67.331
+d127_recall      mean     95.697   std    3.586   median     96.032
+d255_recall      mean     96.384   std    3.585   median     98.151

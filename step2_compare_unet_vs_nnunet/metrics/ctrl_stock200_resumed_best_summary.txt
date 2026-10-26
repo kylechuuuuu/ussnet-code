@@ -1,0 +1,23 @@
+ctrl_stock200_resumed_best  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     95.807   std    1.674   median     96.026
+precision        mean     95.556   std    3.688   median     96.401
+recall           mean     96.215   std    2.455   median     96.576
+iou              mean     92.002   std    3.065   median     92.356
+vol_diff_pct     mean      0.899   std    5.842   median      0.833
+hd95             mean     31.875   std   23.011   median     26.000
+assd             mean      6.100   std    3.303   median      5.240
+hd100            mean     44.979   std   29.419   median     34.785
+correctness      mean     10.021   std   10.344   median      5.340
+completeness     mean      8.760   std    8.434   median      5.782
+quality          mean      5.092   std    5.529   median      2.681
+n_pred_cc        mean      1.129   std    0.335   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    519.645   std  255.173   median    482.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1089.484   std  245.699   median   1031.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     60.899   std   14.253   median     61.946
+d255_dice        mean     64.099   std   12.436   median     67.434
+d127_recall      mean     95.630   std    3.497   median     96.105
+d255_recall      mean     96.479   std    3.533   median     97.756

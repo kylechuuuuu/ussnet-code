@@ -1,0 +1,23 @@
+fpB_resenc_fploss_dir_checkpoint_final  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.135   std    1.524   median     96.358
+precision        mean     95.802   std    2.688   median     96.296
+recall           mean     96.564   std    2.461   median     97.006
+iou              mean     92.599   std    2.812   median     92.971
+vol_diff_pct     mean      0.900   std    4.430   median      0.086
+hd95             mean     30.831   std   24.381   median     20.379
+assd             mean      5.625   std    3.041   median      5.115
+hd100            mean     43.870   std   31.541   median     29.120
+correctness      mean      8.553   std    6.852   median      6.042
+completeness     mean     10.051   std    8.603   median      7.904
+quality          mean      4.929   std    4.343   median      3.638
+n_pred_cc        mean      1.419   std    0.872   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    630.452   std  345.261   median    521.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1109.839   std  243.473   median   1057.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.196   std   14.111   median     62.334
+d255_dice        mean     64.179   std   12.712   median     67.242
+d127_recall      mean     96.196   std    3.225   median     97.097
+d255_recall      mean     96.594   std    4.044   median     98.585

@@ -1,0 +1,23 @@
+final_tta_art  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.434   std    1.403   median     96.634
+precision        mean     96.159   std    2.636   median     96.554
+recall           mean     96.796   std    2.206   median     97.572
+iou              mean     93.149   std    2.603   median     93.486
+vol_diff_pct     mean      0.765   std    4.263   median      1.284
+hd95             mean     25.426   std   20.415   median     22.204
+assd             mean      4.942   std    2.391   median      4.376
+hd100            mean     33.515   std   23.115   median     28.792
+correctness      mean     11.807   std    8.109   median     10.383
+completeness     mean     10.790   std    8.152   median      9.509
+quality          mean      6.052   std    4.687   median      5.008
+n_pred_cc        mean      1.000   std    0.000   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    446.677   std  144.154   median    398.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1056.645   std  203.029   median   1004.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.340   std   14.364   median     62.352
+d255_dice        mean     64.427   std   12.899   median     67.517
+d127_recall      mean     96.247   std    3.238   median     96.949
+d255_recall      mean     96.825   std    4.107   median     98.778

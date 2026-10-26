@@ -1,0 +1,23 @@
+fpA_stock_fploss_checkpoint_final  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.114   std    1.667   median     96.352
+precision        mean     95.675   std    3.512   median     96.298
+recall           mean     96.676   std    1.941   median     97.083
+iou              mean     92.567   std    3.043   median     92.961
+vol_diff_pct     mean      1.225   std    5.202   median      0.428
+hd95             mean     28.409   std   19.610   median     22.779
+assd             mean      5.512   std    3.008   median      4.570
+hd100            mean     42.101   std   28.554   median     34.409
+correctness      mean     10.672   std    8.690   median      7.194
+completeness     mean     10.394   std    8.536   median      7.414
+quality          mean      5.650   std    4.796   median      3.643
+n_pred_cc        mean      1.129   std    0.335   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    544.677   std  229.684   median    488.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1084.548   std  218.039   median   1025.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.183   std   14.315   median     62.224
+d255_dice        mean     64.143   std   12.671   median     67.350
+d127_recall      mean     96.276   std    2.649   median     97.077
+d255_recall      mean     96.706   std    3.750   median     97.958

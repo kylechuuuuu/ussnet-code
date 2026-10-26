@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---- Editors / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Data & model artifacts (never part of the code bundle) ----
+data/
+datasets/
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+outputs/
+runs/
+results/
+logs/
+checkpoints/
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.h5
+*.pkl
+*.zip
+
+# ---- Local env / overrides ----
+.env
+*.local

@@ -1,0 +1,23 @@
+sq2res_w25_band_final  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.380   std    1.325   median     96.476
+precision        mean     96.513   std    2.432   median     96.860
+recall           mean     96.320   std    2.110   median     96.983
+iou              mean     93.044   std    2.467   median     93.192
+vol_diff_pct     mean     -0.116   std    3.914   median      0.153
+hd95             mean     27.418   std   22.572   median     21.014
+assd             mean      5.145   std    2.516   median      4.689
+hd100            mean     39.081   std   28.738   median     29.155
+correctness      mean     10.889   std    8.366   median      9.225
+completeness     mean     10.374   std    8.434   median      9.069
+quality          mean      5.670   std    4.689   median      4.898
+n_pred_cc        mean      1.097   std    0.296   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    487.677   std  177.149   median    434.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1072.419   std  212.762   median   1011.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.336   std   14.353   median     62.219
+d255_dice        mean     64.540   std   12.739   median     67.875
+d127_recall      mean     95.685   std    3.323   median     96.297
+d255_recall      mean     96.478   std    3.958   median     97.764

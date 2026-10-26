@@ -1,0 +1,19 @@
+train:
+  experiments: 'ultrasound_prostate'
+  seed: 42
+  epochs: 650
+  val_interval_epochs: 10
+  batch_size: 8
+  train_size: 256
+  lr: 0.0003
+  weight_decay: 0.00001
+
+# UltrasoundProstate (masks binarized: 127/255 -> foreground)
+datasets:
+  train:
+    data_image: ./datasets/ultrasound_prostate/train/images
+    data_annotation_mask: ./datasets/ultrasound_prostate/train/masks
+
+  val:
+    data_image: ./datasets/ultrasound_prostate/val/images
+    data_annotation_mask: ./datasets/ultrasound_prostate/val/masks

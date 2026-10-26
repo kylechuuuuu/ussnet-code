@@ -1,0 +1,23 @@
+nnunet_best_pp  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.121   std    1.715   median     96.389
+precision        mean     95.674   std    3.500   median     95.528
+recall           mean     96.688   std    1.980   median     97.063
+iou              mean     92.584   std    3.138   median     93.029
+vol_diff_pct     mean      1.234   std    5.111   median      0.564
+hd95             mean     28.843   std   20.517   median     23.345
+assd             mean      5.420   std    2.862   median      4.834
+hd100            mean     38.313   std   24.329   median     30.806
+correctness      mean     10.918   std   10.283   median      8.219
+completeness     mean     10.250   std    9.118   median      9.208
+quality          mean      5.806   std    5.848   median      4.300
+n_pred_cc        mean      1.000   std    0.000   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    506.290   std  192.638   median    468.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1075.677   std  217.495   median   1006.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.191   std   14.346   median     62.426
+d255_dice        mean     64.134   std   12.690   median     66.690
+d127_recall      mean     96.286   std    2.787   median     96.991
+d255_recall      mean     96.700   std    3.814   median     97.834

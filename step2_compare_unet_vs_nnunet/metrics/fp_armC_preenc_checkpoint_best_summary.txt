@@ -1,0 +1,23 @@
+fp_armC_preenc_checkpoint_best  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     95.831   std    1.825   median     96.168
+precision        mean     95.560   std    3.079   median     96.105
+recall           mean     96.239   std    3.072   median     96.834
+iou              mean     92.054   std    3.325   median     92.618
+vol_diff_pct     mean      0.854   std    5.384   median      1.073
+hd95             mean     31.459   std   22.861   median     23.508
+assd             mean      6.061   std    3.379   median      5.457
+hd100            mean     42.164   std   29.908   median     33.242
+correctness      mean      8.896   std    7.679   median      6.458
+completeness     mean      8.743   std    7.200   median      6.135
+quality          mean      4.721   std    4.210   median      3.378
+n_pred_cc        mean      1.258   std    0.717   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    545.710   std  233.701   median    482.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1094.935   std  229.428   median   1071.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     60.926   std   14.104   median     61.737
+d255_dice        mean     64.100   std   12.426   median     66.918
+d127_recall      mean     95.697   std    4.130   median     96.503
+d255_recall      mean     96.586   std    4.667   median     98.721

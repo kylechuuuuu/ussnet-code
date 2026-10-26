@@ -1,0 +1,23 @@
+ens_K_res6_med3open2fill  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.397   std    1.401   median     96.448
+precision        mean     96.221   std    2.691   median     96.338
+recall           mean     96.656   std    2.079   median     97.241
+iou              mean     93.080   std    2.597   median     93.139
+vol_diff_pct     mean      0.556   std    4.213   median      0.910
+hd95             mean     28.119   std   23.528   median     22.825
+assd             mean      5.129   std    2.594   median      4.562
+hd100            mean     38.033   std   27.772   median     29.120
+correctness      mean     11.303   std    8.462   median      9.091
+completeness     mean     10.447   std    8.015   median      9.615
+quality          mean      5.825   std    4.709   median      5.069
+n_pred_cc        mean      1.000   std    0.000   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    468.226   std  156.383   median    427.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1068.548   std  214.570   median   1006.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.390   std   14.322   median     62.373
+d255_dice        mean     64.379   std   12.821   median     67.538
+d127_recall      mean     96.219   std    2.929   median     96.863
+d255_recall      mean     96.627   std    4.023   median     98.350

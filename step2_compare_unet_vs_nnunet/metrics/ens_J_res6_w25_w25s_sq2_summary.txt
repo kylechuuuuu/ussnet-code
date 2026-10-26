@@ -1,0 +1,23 @@
+ens_J_res6_w25_w25s_sq2  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.388   std    1.393   median     96.446
+precision        mean     96.202   std    2.688   median     96.314
+recall           mean     96.658   std    2.078   median     97.284
+iou              mean     93.063   std    2.582   median     93.135
+vol_diff_pct     mean      0.579   std    4.218   median      0.929
+hd95             mean     28.902   std   23.322   median     23.000
+assd             mean      5.252   std    2.747   median      4.561
+hd100            mean     40.403   std   29.273   median     29.833
+correctness      mean     10.593   std    8.058   median      8.352
+completeness     mean     10.261   std    8.044   median      9.314
+quality          mean      5.555   std    4.544   median      4.913
+n_pred_cc        mean      1.258   std    0.670   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    511.484   std  222.805   median    447.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1081.419   std  221.483   median   1019.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.380   std   14.316   median     62.373
+d255_dice        mean     64.373   std   12.817   median     67.537
+d127_recall      mean     96.219   std    2.928   median     96.861
+d255_recall      mean     96.634   std    4.005   median     98.350

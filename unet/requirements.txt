@@ -1,0 +1,8 @@
+pyyaml
+yacs
+scikit-learn
+scikit-image
+opencv-python
+tqdm
+tensorboard
+gpustat

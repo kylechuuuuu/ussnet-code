@@ -1,0 +1,23 @@
+sq2w25_checkpoint_best_base  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.129   std    1.526   median     96.450
+precision        mean     95.598   std    3.218   median     95.689
+recall           mean     96.765   std    1.800   median     97.159
+iou              mean     92.587   std    2.796   median     93.144
+vol_diff_pct     mean      1.367   std    4.666   median      1.016
+hd95             mean     30.243   std   22.219   median     20.820
+assd             mean      5.514   std    2.691   median      4.611
+hd100            mean     41.282   std   27.866   median     28.460
+correctness      mean      9.872   std    7.564   median      7.505
+completeness     mean      9.853   std    8.331   median      7.362
+quality          mean      5.266   std    4.406   median      3.670
+n_pred_cc        mean      1.097   std    0.296   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    513.742   std  174.522   median    475.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1079.903   std  209.226   median   1031.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.127   std   14.254   median     62.568
+d255_dice        mean     64.161   std   12.815   median     66.358
+d127_recall      mean     96.304   std    2.727   median     96.970
+d255_recall      mean     96.784   std    3.498   median     97.380

@@ -1,0 +1,18 @@
+# Core Python dependencies for the USSnet code bundle.
+# Tested with Python 3.11 / torch 2.7.1+cu118 / CUDA 11.8.
+# Not included: the internal `sam3` (UltraSAM3 ViT-Det) and `sam2` packages;
+# install them from the original USSnet/UltraSAM3 environment.
+torch>=2.0
+torchvision
+timm
+transformers
+monai
+scipy
+scikit-image
+opencv-python
+pandas
+numpy
+Pillow
+nibabel
+# baselines only:
+# nnunetv2==2.6.2

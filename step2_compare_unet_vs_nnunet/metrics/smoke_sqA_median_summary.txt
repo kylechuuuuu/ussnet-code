@@ -1,0 +1,23 @@
+smoke_sqA_median  (split=val, n=3, missing=28)
+------------------------------------------------------------
+dice             mean     91.063   std    3.183   median     93.043
+precision        mean     89.284   std    0.876   median     89.782
+recall           mean     93.213   std    6.827   median     97.425
+iou              mean     83.746   std    5.263   median     86.991
+vol_diff_pct     mean      4.445   std    8.173   median      8.228
+hd95             mean     39.708   std   19.038   median     30.000
+assd             mean     11.306   std    4.892   median      8.057
+hd100            mean     45.879   std   20.373   median     34.713
+correctness      mean      2.300   std    1.272   median      2.302
+completeness     mean      8.199   std    3.855   median      8.824
+quality          mean      1.836   std    0.995   median      1.860
+n_pred_cc        mean     13.667   std   12.284   median      6.000
+n_gt_cc          mean      1.000   std    0.000   median      1.000
+skel_pred_len    mean   1639.333   std  504.151   median   1564.000
+skel_gt_len      mean    422.000   std   84.680   median    408.000
+perimeter_pred   mean   1235.000   std  251.580   median   1078.000
+perimeter_gt     mean    985.000   std   61.422   median   1012.000
+d127_dice        mean     61.055   std   10.793   median     61.628
+d255_dice        mean     58.294   std   10.188   median     61.516
+d127_recall      mean     88.460   std   12.584   median     96.717
+d255_recall      mean     97.756   std    2.012   median     98.149

@@ -1,0 +1,23 @@
+res_best_pp  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.390   std    1.387   median     96.452
+precision        mean     96.230   std    2.620   median     96.548
+recall           mean     96.631   std    2.105   median     97.334
+iou              mean     93.066   std    2.576   median     93.147
+vol_diff_pct     mean      0.516   std    4.144   median      0.888
+hd95             mean     27.869   std   23.160   median     22.345
+assd             mean      5.137   std    2.586   median      4.566
+hd100            mean     38.029   std   27.660   median     29.967
+correctness      mean     10.947   std    7.752   median      8.916
+completeness     mean     10.378   std    7.616   median      9.615
+quality          mean      5.664   std    4.330   median      4.711
+n_pred_cc        mean      1.000   std    0.000   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    484.871   std  175.864   median    439.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1074.516   std  217.720   median   1008.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.381   std   14.354   median     62.391
+d255_dice        mean     64.381   std   12.801   median     67.547
+d127_recall      mean     96.167   std    3.067   median     96.850
+d255_recall      mean     96.613   std    4.028   median     98.197

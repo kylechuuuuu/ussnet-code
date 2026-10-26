@@ -1,0 +1,23 @@
+ens_A_w25s_sq2_snap  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.019   std    1.667   median     96.230
+precision        mean     95.596   std    3.384   median     95.992
+recall           mean     96.574   std    2.387   median     96.976
+iou              mean     92.391   std    3.060   median     92.734
+vol_diff_pct     mean      1.194   std    5.295   median      0.834
+hd95             mean     30.082   std   20.392   median     27.451
+assd             mean      5.495   std    2.736   median      5.100
+hd100            mean     39.567   std   23.215   median     36.346
+correctness      mean      5.082   std    3.718   median      3.852
+completeness     mean     11.311   std    9.535   median      8.545
+quality          mean      3.632   std    2.859   median      2.404
+n_pred_cc        mean      1.000   std    0.000   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean   1055.774   std  238.296   median   1002.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1134.516   std  215.932   median   1094.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.065   std   14.239   median     62.154
+d255_dice        mean     64.124   std   12.710   median     67.510
+d127_recall      mean     96.111   std    3.426   median     97.087
+d255_recall      mean     96.667   std    3.896   median     98.348

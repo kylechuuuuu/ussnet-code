@@ -1,0 +1,20 @@
+train:
+  experiments: 'ultrasound_prostate_73'
+  seed: 42
+  epochs: 650
+  val_interval_epochs: 10
+  batch_size: 8
+  train_size: 256
+  lr: 0.0003
+  weight_decay: 0.00001
+
+# UltrasoundProstate 7:3 split (71 train / 31 val, seed 42)
+# masks binarized: any non-zero source value (127/255) -> foreground 255
+datasets:
+  train:
+    data_image: ./datasets/ultrasound_prostate_73/train/images
+    data_annotation_mask: ./datasets/ultrasound_prostate_73/train/masks
+
+  val:
+    data_image: ./datasets/ultrasound_prostate_73/val/images
+    data_annotation_mask: ./datasets/ultrasound_prostate_73/val/masks

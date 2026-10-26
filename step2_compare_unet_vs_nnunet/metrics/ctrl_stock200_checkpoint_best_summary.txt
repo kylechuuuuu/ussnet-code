@@ -1,0 +1,23 @@
+ctrl_stock200_checkpoint_best  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     95.876   std    1.655   median     96.165
+precision        mean     95.569   std    3.802   median     96.586
+recall           mean     96.333   std    2.050   median     96.260
+iou              mean     92.126   std    3.009   median     92.614
+vol_diff_pct     mean      1.020   std    5.804   median      0.765
+hd95             mean     30.734   std   21.483   median     25.710
+assd             mean      6.038   std    3.109   median      5.361
+hd100            mean     47.439   std   40.518   median     34.366
+correctness      mean      9.738   std    8.889   median      6.373
+completeness     mean      8.030   std    6.912   median      5.967
+quality          mean      4.690   std    4.397   median      3.030
+n_pred_cc        mean      1.032   std    0.177   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    489.419   std  225.879   median    408.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1076.323   std  232.123   median   1018.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     60.787   std   14.413   median     61.322
+d255_dice        mean     64.256   std   12.605   median     67.481
+d127_recall      mean     95.470   std    3.531   median     96.050
+d255_recall      mean     96.720   std    3.291   median     97.531

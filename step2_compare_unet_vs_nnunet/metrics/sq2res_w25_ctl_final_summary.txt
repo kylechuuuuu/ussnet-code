@@ -1,0 +1,23 @@
+sq2res_w25_ctl_final  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     96.390   std    1.388   median     96.491
+precision        mean     96.210   std    2.644   median     96.541
+recall           mean     96.650   std    2.061   median     97.391
+iou              mean     93.065   std    2.575   median     93.220
+vol_diff_pct     mean      0.557   std    4.137   median      0.789
+hd95             mean     28.595   std   23.668   median     21.464
+assd             mean      5.253   std    2.787   median      4.567
+hd100            mean     40.114   std   29.398   median     29.069
+correctness      mean     10.493   std    7.467   median      8.245
+completeness     mean     10.121   std    7.405   median      9.636
+quality          mean      5.451   std    4.089   median      4.540
+n_pred_cc        mean      1.161   std    0.368   median      1.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean    511.323   std  217.552   median    457.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1085.065   std  224.385   median   1015.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     61.372   std   14.311   median     62.389
+d255_dice        mean     64.389   std   12.787   median     67.558
+d127_recall      mean     96.198   std    2.905   median     96.759
+d255_recall      mean     96.653   std    3.976   median     98.456

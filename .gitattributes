@@ -1,0 +1,13 @@
+# Keep sources LF so the scripts run unchanged on Linux (the original runtime).
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# Windows-native helpers
+*.bat  text eol=crlf
+*.ps1  text eol=crlf

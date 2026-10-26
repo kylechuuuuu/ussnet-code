@@ -1,0 +1,23 @@
+unet_73  (split=val, n=31, missing=0)
+------------------------------------------------------------
+dice             mean     93.006   std    3.351   median     94.307
+precision        mean     92.528   std    5.060   median     92.745
+recall           mean     94.013   std    6.298   median     96.575
+iou              mean     87.106   std    5.719   median     89.228
+vol_diff_pct     mean      2.090   std   10.600   median      4.228
+hd95             mean     52.256   std   29.570   median     51.000
+assd             mean     11.246   std    6.879   median      9.620
+hd100            mean    115.096   std  106.170   median     68.029
+correctness      mean      1.780   std    1.330   median      1.387
+completeness     mean      8.486   std    4.593   median      7.675
+quality          mean      1.469   std    1.046   median      1.233
+n_pred_cc        mean     34.000   std   27.749   median     27.000
+n_gt_cc          mean      1.129   std    0.335   median      1.000
+skel_pred_len    mean   3067.968   std 1555.391   median   2824.000
+skel_gt_len      mean    511.774   std  206.517   median    504.000
+perimeter_pred   mean   1956.548   std  755.485   median   1753.000
+perimeter_gt     mean   1078.839   std  210.792   median   1022.000
+d127_dice        mean     58.657   std   13.998   median     58.877
+d255_dice        mean     62.554   std   10.948   median     65.636
+d127_recall      mean     92.663   std    7.377   median     95.489
+d255_recall      mean     95.475   std    6.551   median     98.146
