@@ -1,0 +1,8 @@
+# Additional dependencies for step15, on top of requirements_code.txt.
+# Tested with Python 3.11 / torch 2.7.1+cu118 / CUDA 11.8.
+torch>=2.0
+timm
+numpy
+SimpleITK
+scipy
+# the baseline / this trainer runs on nnunetv2==2.6.2 (see requirements_code.txt)

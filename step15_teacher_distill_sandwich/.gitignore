@@ -1,0 +1,11 @@
+# local artifacts for this step (the repo root already ignores most of these)
+__pycache__/
+*.py[cod]
+logs/
+prior_stats.npz
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.nii
+*.nii.gz
