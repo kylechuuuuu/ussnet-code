@@ -25,12 +25,14 @@ caches, no prediction masks. It contains scripts, configs, reports and small res
 | `step10_us_foundation_front/` | Teacher caching, DC-free low-rank distillation, narrow-ViT student |
 | `step11_model_summary/` | Paper-level model and claim summary |
 | `step12_lowrank_decomp/` | Low-rank refiner (negative result) and no-TTA comparison |
+| `step15_teacher_distill_sandwich/` | Frozen-teacher feature distillation into the sandwich model (no student) |
 | `unet/` | Original U-Net baseline (code and config only) |
 
 ## Start here
 
 - `step11_model_summary/README.md` and `EVIDENCE.md` — model overview and evidence table
 - `step12_lowrank_decomp/REPORT.md` — no-TTA delivery-line comparison
+- `step15_teacher_distill_sandwich/README.md` — frozen-teacher FiLM + PCA-16 distillation arm, with its fold-0 numbers and caveats
 - `CODE_README.md` — full Chinese write-up: verified claims, negative results, exact numbers
 
 ## Environment
