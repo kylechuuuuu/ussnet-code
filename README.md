@@ -1,10 +1,12 @@
 # USSnet
 
-Research code for **prostate ultrasound segmentation**: a 13.33 M-parameter narrow-ViT
-student distilled from an 841.7 M ultrasound foundation model, trained with **DC-free
-low-rank teacher features** and decoded through a **"sandwich" 6-channel boundary head +
-boundary-evidence arbitration**. Evaluated against nnU-Net and CNN baselines on repeated
-71/31 splits, with 20 acquisition-condition shifts and 3 held-out conditions.
+Research code for **ultrasound segmentation** (prostate, breast, thyroid). The current
+main model is a **stock 2D nnU-Net with a "sandwich" 6-channel boundary head**, trained
+with **feature-level distillation from a frozen ultrasound foundation model** (zero-init
+FiLM + PCA-16 auxiliary loss, no student network). It is evaluated against nnU-Net on
+repeated 71/31 splits, 20 acquisition-condition shifts, and cross-dataset benchmarks
+(DDTI, BUSI, TG3K). An earlier line compresses the teacher into a 13.33 M narrow-ViT
+student (step10).
 
 This repository is a **code-only export**: no raw data, no model weights, no teacher
 caches, no prediction masks. It contains scripts, configs, reports and small result tables.
@@ -25,8 +27,28 @@ caches, no prediction masks. It contains scripts, configs, reports and small res
 | `step10_us_foundation_front/` | Teacher caching, DC-free low-rank distillation, narrow-ViT student |
 | `step11_model_summary/` | Paper-level model and claim summary |
 | `step12_lowrank_decomp/` | Low-rank refiner (negative result) and no-TTA comparison |
-| `step15_teacher_distill_sandwich/` | Frozen-teacher feature distillation into the sandwich model (no student) |
+| `step15_teacher_distill_sandwich/` | **Main model:** sandwich + frozen-teacher distillation (FiLM + PCA-16, no student) |
 | `unet/` | Original U-Net baseline (code and config only) |
+
+## Main model
+
+`step15_teacher_distill_sandwich/`
+
+- **backbone**: stock nnU-Net 2D U-Net (8 stages, 46.33 M params)
+- **head**: 6 channels = base / cautious (erode 3 px) / amplified (dilate 4 px)
+- **teacher**: frozen UltraFedFM ViT-B/16; zero-init FiLM at stage 4, PCA-16 cosine
+  auxiliary loss, ~0.9 M adapters, no student network and no teacher cache
+- **inference**: base head; band-consistent calibration (BCC) is optional and **off by
+  default** (it is not a reliable global gain — see `step15/docs/RESULTS.md`)
+
+Headline numbers (same protocol for both arms):
+
+| benchmark | nnU-Net Dice / HD95 | main model Dice / HD95 |
+|---|---|---|
+| prostate, fold 0 (n=31) | 95.94 / 31.79 | **96.05 / 28.57** |
+| DDTI, 75/25 (n=25) | **69.91** / 58.72 | 69.88 / **57.37** |
+| BUSI, 75/25 (n=25) | 71.62 / 108.80 | **76.83 / 73.17** |
+| TG3K, 60/20 (n=20) | 85.59 / 27.18 | **87.77 / 20.38** |
 
 ## Start here
 
